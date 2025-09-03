@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A clean, responsive landing page template." />
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='16' fill='%230a84ff'/><path d='M24 54c10 10 19 15 26 15 10 0 17-6 22-18' stroke='white' stroke-width='10' stroke-linecap='round' fill='none'/></svg>"> 
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a class="brand" href="#" aria-label="Homepage">
+          <span class="brand-mark" aria-hidden="true">◆</span>
+          <span class="brand-text">YourBrand</span>
+        </a>
+
+        <button class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+
+        <nav id="site-nav" class="site-nav" role="navigation">
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+          <a class="button button--primary button--small" href="#cta">Get Started</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section hero" aria-labelledby="hero-heading">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <h1 id="hero-heading">Build beautiful landing pages, fast</h1>
+            <p class="lead">A clean, responsive template that helps you showcase your product and convert visitors into customers.</p>
+            <div class="hero-actions">
+              <a class="button button--primary" href="#cta">Start free</a>
+              <a class="button button--ghost" href="#features">See features</a>
+            </div>
+            <div class="hero-stats" aria-label="Key highlights">
+              <div class="stat"><span class="stat-value">2 min</span><span class="stat-label">to set up</span></div>
+              <div class="stat"><span class="stat-value">A+</span><span class="stat-label">accessibility</span></div>
+              <div class="stat"><span class="stat-value">100%</span><span class="stat-label">responsive</span></div>
+            </div>
+          </div>
+
+          <div class="hero-media" aria-hidden="true">
+            <div class="device-mock">
+              <div class="device-screen">
+                <div class="mock-card">
+                  <div class="mock-avatar"></div>
+                  <div class="mock-lines">
+                    <span></span><span></span><span></span>
+                  </div>
+                </div>
+                <div class="mock-card"></div>
+                <div class="mock-card"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-bg" aria-hidden="true"></div>
+      </section>
+
+      <section id="features" class="section features" aria-labelledby="features-heading">
+        <div class="container">
+          <h2 id="features-heading" class="section-title">Everything you need</h2>
+          <p class="section-subtitle">Build, launch, and iterate with a streamlined workflow.</p>
+          <div class="feature-grid">
+            <article class="feature">
+              <div class="feature-icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+              </div>
+              <h3 class="feature-title">Clean layout</h3>
+              <p class="feature-text">Balanced spacing, consistent rhythm, and clear hierarchy.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+              </div>
+              <h3 class="feature-title">Responsive grid</h3>
+              <p class="feature-text">Looks great on phones, tablets, and desktops without extra effort.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12l4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <h3 class="feature-title">Accessible by default</h3>
+              <p class="feature-text">Keyboard-friendly, color-contrast aware, and semantic HTML.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section testimonials" aria-labelledby="testimonials-heading">
+        <div class="container">
+          <h2 id="testimonials-heading" class="section-title">Loved by teams</h2>
+          <div class="testimonial-grid">
+            <figure class="testimonial">
+              <blockquote>“We launched our product page in an afternoon and doubled signups.”</blockquote>
+              <figcaption>
+                <span class="avatar" aria-hidden="true">AH</span>
+                <span class="name">Alex Hunter</span>
+                <span class="role">Growth Lead, Nova</span>
+              </figcaption>
+            </figure>
+            <figure class="testimonial">
+              <blockquote>“Clean code and great defaults. Saved us days of work.”</blockquote>
+              <figcaption>
+                <span class="avatar" aria-hidden="true">RM</span>
+                <span class="name">Ramani Devi</span>
+                <span class="role">Product Manager, Alto</span>
+              </figcaption>
+            </figure>
+            <figure class="testimonial">
+              <blockquote>“The best starter I have used. Everything just works.”</blockquote>
+              <figcaption>
+                <span class="avatar" aria-hidden="true">JB</span>
+                <span class="name">Bhaskar Manideep</span>
+                <span class="role">Founder, Craftly</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section pricing" aria-labelledby="pricing-heading">
+        <div class="container">
+          <h2 id="pricing-heading" class="section-title">Simple pricing</h2>
+          <div class="pricing-grid">
+            <article class="plan">
+              <h3 class="plan-name">Starter</h3>
+              <p class="plan-price">0 RUPEES<span>/mo</span></p>
+              <ul class="plan-features">
+                <li>1 project</li>
+                <li>Basic analytics</li>
+                <li>Email support</li>
+              </ul>
+              <a class="button button--ghost" href="#cta">Choose Starter</a>
+            </article>
+            <article class="plan plan--featured" aria-label="Recommended plan">
+              <div class="badge">Popular</div>
+              <h3 class="plan-name">Pro</h3>
+              <p class="plan-price">190 RUPEES<span>/mo</span></p>
+              <ul class="plan-features">
+                <li>Unlimited projects</li>
+                <li>Advanced analytics</li>
+                <li>Priority support</li>
+              </ul>
+              <a class="button button--primary" href="#cta">Choose Pro</a>
+            </article>
+            <article class="plan">
+              <h3 class="plan-name">Business</h3>
+              <p class="plan-price">490 RUPEES<span>/mo</span></p>
+              <ul class="plan-features">
+                <li>Everything in Pro</li>
+                <li>Team seats</li>
+                <li>SLAs</li>
+              </ul>
+              <a class="button button--ghost" href="#cta">Choose Business</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="section faq" aria-labelledby="faq-heading">
+        <div class="container">
+          <h2 id="faq-heading" class="section-title">Frequently asked questions</h2>
+          <div class="faq-list">
+            <details class="faq-item">
+              <summary>Is this template beginner-friendly?</summary>
+              <p>Yes. It uses only HTML, CSS, and a tiny bit of JavaScript, with clear structure you can customize.</p>
+            </details>
+            <details class="faq-item">
+              <summary>Can I use this commercially?</summary>
+              <p>Absolutely. Replace the text, tweak the colors, and ship.</p>
+            </details>
+            <details class="faq-item">
+              <summary>How do I change the color palette?</summary>
+              <p>Edit CSS variables in <code>:root</code> inside <code>styles.css</code> for instant theme updates.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section id="cta" class="section cta" aria-labelledby="cta-heading">
+        <div class="container cta-inner">
+          <div>
+            <h2 id="cta-heading">Ready to launch?</h2>
+            <p>Start with the free plan and upgrade when you grow.</p>
+          </div>
+          <form class="cta-form" action="#" method="post" onsubmit="return false;" aria-label="Join waitlist">
+            <label class="sr-only" for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="Enter your email" required />
+            <button class="button button--primary" type="submit">Join waitlist</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand" href="#" aria-label="Homepage">
+            <span class="brand-mark" aria-hidden="true">◆</span>
+            <span class="brand-text">YourBrand</span>
+          </a>
+          <p class="footer-desc">Design-focused templates that help you move faster.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Product</h4>
+            <ul>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#faq">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Guides</a></li>
+              <li><a href="#">Community</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> YourBrand. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+  </html>
+
+
